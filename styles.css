@@ -67,3 +67,323 @@ main a[href^="mailto:"] {
     color: #ff5722;
     font-weight: bold;
 }
+
+.club-real h2, .club-real h3 {
+    color: #002b6e; 
+    border-bottom: 2px solid #febd11; 
+    padding-bottom: 5px;
+}
+
+.club-real .list-group-item {
+    background-color: #f8f9fa;
+    transition: background-color 0.2s;
+}
+
+.club-real .list-group-item:hover {
+    background-color: #febd11;
+    color: #002b6e;
+    font-weight: bold;
+}
+
+.club-real .col-md-8 p:first-of-type::first-letter {
+    font-size: 3.5em;
+    float: left;
+    line-height: 0.8;
+    margin-right: 8px;
+    color: #febd11;
+    font-weight: bold;
+}
+
+.club-real .row .col-4 {
+    background-color: #002b6e;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.club-acmilan h2, .club-acmilan h3 {
+    color: #000000; 
+    border-bottom: 2px solid #c91a1a; 
+    padding-bottom: 5px;
+}
+
+.club-acmilan .list-group-item:hover {
+    background-color: #c91a1a;
+    color: white;
+}
+
+.club-acmilan .col-md-8 p:first-of-type::first-letter {
+    font-size: 3.5em;
+    float: left;
+    line-height: 0.8;
+    margin-right: 8px;
+    color: #c91a1a;
+    font-weight: bold;
+}
+
+.club-acmilan .row .col-4 {
+    background-color: #c91a1a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.club-manutd h2, .club-manutd h3 {
+    color: #da020e; 
+    border-bottom: 2px solid #000000; 
+    padding-bottom: 5px;
+}
+
+.club-manutd .list-group-item:hover {
+    background-color: #da020e;
+    color: white;
+}
+
+.club-manutd .col-md-8 p:first-of-type::first-letter {
+    font-size: 3.5em;
+    float: left;
+    line-height: 0.8;
+    margin-right: 8px;
+    color: #da020e;
+    font-weight: bold;
+}
+
+.club-manutd .row .col-4 {
+    background-color: #da020e;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.club-bayern h2, .club-bayern h3 {
+    color: #dc052d;
+    border-bottom: 2px solid #0066b2; 
+    padding-bottom: 5px;
+}
+
+.club-bayern .list-group-item:hover {
+    background-color: #dc052d;
+    color: white;
+}
+
+.club-bayern .col-md-8 p:first-of-type::first-letter {
+    font-size: 3.5em;
+    float: left;
+    line-height: 0.8;
+    margin-right: 8px;
+    color: #dc052d;
+    font-weight: bold;
+}
+
+.club-bayern .row .col-4 {
+    background-color: #dc052d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.club-barcelona h2, 
+.club-barcelona h3 {
+    color: #004d98; 
+    border-bottom: 2px solid #a50044; 
+    padding-bottom: 5px;
+}
+
+.club-barcelona .list-group-item:hover {
+    background-color: #a50044;
+    color: white;
+}
+
+.club-barcelona .col-md-8 p:first-of-type::first-letter {
+    font-size: 3.5em;
+    float: left;
+    line-height: 0.8;
+    margin-right: 8px;
+    color: #a50044;
+    font-weight: bold;
+}
+
+.club-barcelona .row .col-4 {
+    background-color: #a50044;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.bg-dark {
+    background-color: #0a1f3b !important;
+}
+
+.btn-primary {
+    background-color: #0a1f3b !important;
+    border-color: #0a1f3b !important;
+}
+
+.btn-primary:hover {
+    background-color: #14375c !important; 
+    border-color: #14375c !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #febd11 !important;
+}
+
+.dropdown-menu {
+    background-color: #0a1f3b !important;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+    background-color: #febd11 !important;
+    color: #0a1f3b !important;
+}
+
+.bg-dark {
+    background-color: #0a1f3b !important; 
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #febd11 !important;
+}
+
+.dropdown-menu {
+    background-color: #0a1f3b !important;
+    border: none;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+    background-color: #febd11 !important;
+    color: #0a1f3b !important;
+}
+
+.btn-primary {
+    background-color: #0a1f3b !important;
+    border-color: #0a1f3b !important;
+}
+
+.btn-primary:hover {
+    background-color: #14375c !important;
+    border-color: #14375c !important;
+}
+
+.navbar.bg-dark {
+    background-color: #0a1f3b !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #febd11 !important;
+}
+
+.dropdown-menu {
+    background-color: #0a1f3b !important;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+    background-color: #febd11 !important;
+    color: #0a1f3b !important;
+}
+
+.navbar {
+    background-color: red !important;
+}
+
+body {
+    background-color: limegreen !important;
+}
+
+header .navbar.bg-dark {
+    background-color: #0a1f3b !important;
+}
+
+header .navbar.bg-dark {
+    background-color: #0a1f3b !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #febd11 !important;
+}
+
+.dropdown-menu {
+    background-color: #0a1f3b !important;
+    border: none;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+    background-color: #febd11 !important;
+    color: #0a1f3b !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-color: #0a1f3b !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark .navbar-brand,
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark .nav-link {
+    color: #ffffff !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark .nav-link:hover {
+    color: #febd11 !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark .dropdown-menu {
+    background-color: #0a1f3b !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark .dropdown-item {
+    color: #ffffff !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark .dropdown-item:hover {
+    background-color: #febd11 !important;
+    color: #0a1f3b !important;
+}
+
+.custom-navbar {
+    background-color: #0a1f3b !important;
+}
