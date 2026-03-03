@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Legends – Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Football Legends</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Clubs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="clubs.html">All Clubs</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="real-madrid.html">Real Madrid</a></li>
+                                <li><a class="dropdown-item" href="ac-milan.html">AC Milan</a></li>
+                                <li><a class="dropdown-item" href="man-utd.html">Manchester United</a></li>
+                                <li><a class="dropdown-item" href="bayern.html">Bayern Munich</a></li>
+                                <li><a class="dropdown-item" href="barcelona.html">Barcelona</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact feedback.html">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="club stats.html">Club Stats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<main class="container my-5">
+    <h1 class="text-center mb-4">We Value Your Feedback</h1>
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <form action="acknowledgement.html" method="get">
+                <div class="mb-3">
+                    <label for="visitorName" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="visitorName" name="visitorName" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="visitorEmail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="visitorEmail" name="visitorEmail" placeholder="name@example.com" required>
+                    <div class="form-text">We'll never share your email.</div>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="visitorMessage" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="visitorMessage" name="visitorMessage" rows="5" placeholder="Tell us about your favorite club or suggest an improvement..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Send Feedback</button>
+            </form>
+        </div>
+    </div>
+</main>
+    
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Leatile Madisa. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
